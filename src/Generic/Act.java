@@ -8,7 +8,7 @@ public class Act {
 	public void RightClick(WebDriver driver, WebElement ele)
 	{
 		Actions act=new Actions(driver);
-		act.contextClick().perform();
+		//act.contextClick().perform();
 	}
 	public void dragd(WebDriver driver, WebElement ele,WebElement ele1)
 	{
